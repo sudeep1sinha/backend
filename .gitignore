@@ -1,0 +1,31 @@
+# Dependencies
+/node_modules/
+
+# Build output
+/build/
+
+# Database files
+/data/*.db  # Adjust the pattern if your database files have a different extension
+
+# IDE or editor files
+/.idea/
+.vscode/
+.project
+.pycharm_optimizations/
+q-attend
+# Temporary testing or staging files
+/tmp/
+/*.log
+
+# Environment variables
+.env  # Include if using a separate .env file
+
+# Npm lock files
+package-lock.json
+
+# Optional: Additional files
+npm-debug.log
+yarn.lock
+
+# Ignore typings for better IDE support
+*.d.ts
